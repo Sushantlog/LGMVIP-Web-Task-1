@@ -8,6 +8,7 @@ function addTask() {
   const taskText = taskInput.value;
   if (taskText !== "") {
     const li = document.createElement("li");
+
     li.innerHTML = `
       <span class="task-name">${taskText}</span>
       <button class="delete-button">X</button>
